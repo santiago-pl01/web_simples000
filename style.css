@@ -1,0 +1,36 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: lightblue; 
+      color: rgb(14, 1, 1);
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    main {
+      flex: 1; /* ocupa o espaço central */
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: lightblue; 
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
